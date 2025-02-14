@@ -1,0 +1,95 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.1">
+  <diagram name="Page-1" id="X3YaCSp8oxL7MfngXXWX">
+    <mxGraphModel dx="2284" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yOvKHf8KI_yJCevXK5pf-69" value="&lt;li&gt;&lt;strong&gt;User → Login System&lt;/strong&gt;: &quot;&quot;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Login System → Database&lt;/strong&gt;: &quot;Validate User Credentials&quot;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Database → Login System&lt;/strong&gt;: &quot;Return Validation Result&quot;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Login System → User&lt;/strong&gt;: &quot;Display Login Result (Success/Failure)&quot;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;User → Case Management System&lt;/strong&gt;: &quot;Request Case Information&quot;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Case Management System → Database&lt;/strong&gt;: &quot;Retrieve Case Information&quot;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Database → Case Management System&lt;/strong&gt;: &quot;Return Case Data&quot;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Case Management System → User&lt;/strong&gt;: &quot;Display Case Information&quot;&lt;/li&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="120" width="430" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="yOvKHf8KI_yJCevXK5pf-70" value="user" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="330" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yOvKHf8KI_yJCevXK5pf-72" value="login system" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="180" y="370" as="sourcePoint" />
+            <mxPoint x="340" y="370" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yOvKHf8KI_yJCevXK5pf-73" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(27, 29, 30); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Enter Username and Password&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="360" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yOvKHf8KI_yJCevXK5pf-74" value="DataBase" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="560" y="379.5" as="sourcePoint" />
+            <mxPoint x="650" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yOvKHf8KI_yJCevXK5pf-75" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(27, 29, 30); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Validate User Credentials&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="460" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yOvKHf8KI_yJCevXK5pf-76" value="Login System" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="580" y="480" as="sourcePoint" />
+            <mxPoint x="400" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yOvKHf8KI_yJCevXK5pf-77" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(27, 29, 30); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Return Validation Result&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="460" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yOvKHf8KI_yJCevXK5pf-78" value="Logged in" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" target="yOvKHf8KI_yJCevXK5pf-70">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="220" y="479.5" as="sourcePoint" />
+            <mxPoint x="40" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yOvKHf8KI_yJCevXK5pf-79" value="Case Managment" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="120" y="400" as="sourcePoint" />
+            <mxPoint x="-60" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yOvKHf8KI_yJCevXK5pf-80" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(27, 29, 30); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Request Case Information&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="390" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yOvKHf8KI_yJCevXK5pf-81" value="DataBase" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-245" y="400" as="sourcePoint" />
+            <mxPoint x="-340" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-340" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yOvKHf8KI_yJCevXK5pf-82" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(27, 29, 30); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Retrieve Case Information&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="290" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yOvKHf8KI_yJCevXK5pf-83" value="Case Managment" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-240" y="309.5" as="sourcePoint" />
+            <mxPoint x="-60" y="309.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yOvKHf8KI_yJCevXK5pf-84" value="&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(27, 29, 30); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Return Case Data&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="300" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="yOvKHf8KI_yJCevXK5pf-85" value="View" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="yOvKHf8KI_yJCevXK5pf-84">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="60" y="280" as="sourcePoint" />
+            <mxPoint x="140" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
